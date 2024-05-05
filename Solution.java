@@ -1,4 +1,12 @@
 
+// class 'CategoryHandler' is in-built in the solution file on leetcode.com
+/**
+ * Definition for a category handler. 
+ * class CategoryHandler { 
+ * public CategoryHandler(int[] categories); 
+ * public boolean haveSameCategory(int a, int b); };
+ */
+
 public class Solution {
 
     public int numberOfCategories(int numberOfElements, CategoryHandler categoryHandler) {
@@ -16,11 +24,3 @@ public class Solution {
         return numberOfCategories;
     }
 }
-
-// class 'CategoryHandler' is in-built in the solution file on leetcode.com
-/**
- * Definition for a category handler. 
- * class CategoryHandler { 
- * public CategoryHandler(int[] categories); 
- * public boolean haveSameCategory(int a, int b); };
- */
