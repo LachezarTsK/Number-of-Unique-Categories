@@ -14,7 +14,7 @@ func numberOfCategories(numberOfElements int, categoryHandler CategoryHandler) i
 
 	for first := 0; first < numberOfElements; first++ {
 		for second := first + 1; second < numberOfElements; second++ {
-			if categoryHandler.haveSameCategory(first, second) {
+			if categoryHandler.HaveSameCategory(first, second) {
 				numberOfCategories--
 				break
 			}
